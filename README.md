@@ -1,4 +1,4 @@
-# Git - The Simple Guide
+# Pomotodo - The Simple Guide
 
-http://rogerdudler.github.com/git-guide/
+http://pomotodo-guide.ghst.io/
 
