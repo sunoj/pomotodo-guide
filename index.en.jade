@@ -1,122 +1,131 @@
 !!! 5
-title 番茄土豆 - 简明指南
+title Pomotodo - the simple guide
 link(rel="stylesheet",href="css/normalize.css",type="text/css")
 link(rel="stylesheet",href="css/style.css",type="text/css")
-.scrollblock.block-title
-  h1 番茄土豆 - 简明指南
-  p 助你入门 番茄土豆 的简明指南
-  p.meta
-    a(href='index.html') English
-    | ,
-    a(href='index.zh.html') 中文
-  img(src='img/arrow.png', alt='')
-a(name='setup')
-.scrollblock.block-setup
-  h2 安装
+link(rel="stylesheet",href="http://fonts.googleapis.com/css?family=Chelsea+Market",type="text/css")
+.english
+  .scrollblock.block-title
+    h1 Pomotodo - the simple guide
+    p just a simple guide for getting started with Pomotodo.
+    p.meta
+      a(href='index.en.html') English
+      | ,
+      a(href='index.html') 中文
+    img(src='img/arrow.png', alt='')
+  a(name='setup')
+  .scrollblock.block-setup
+    h2 setup
+    p
+      span
+        a(href='https://pomotodo.com') for Web
+      span
+        a(href='http://mac-beta.pomotodo.com/') for OSX
+      span
+        a(href='http://win-beta.pomotodo.com/') for Windows
+    p
+      span
+        a(href='http://www.wandoujia.com/apps/com.pomotodo') for Android
+      span
+        a(href='https://itunes.apple.com/cn/app/fan-jia-tu-dou/id866339080') for iOS 
+  a(name='todo')
+  .scrollblock.block-todo
+    h2 add your first todo
+    p
+      | Open Pomotodo, type your task, like：
+      br
+      code #Pomotodo simple guide
+      br
+      | Enter
+      br
+      | You can continue to add, put tasks within the next couple of days in the list of todos.
+  a(name='pickup')
+  .scrollblock.block-pickup
+    h2 pickup todo
+    p
+      | Drag up or down to change the order of todos,put the important and urgent tasks on top
+      br
+      img(src='img/pickup.png', alt='')
+      br
+      | Pick one or two todo you are ready to complete, put them to use "Pin" icon to pin up
+      br
+  a(name='pomo')
+  .scrollblock.block-pomo
+    h2 Start Pomodoro
+    p
+      | "Start Pomodoro" mean in the next 25 minutes you have to focus on the Pomodoro
+      br
+      | Take a deep breath, click：
+      code Start Pomodoro
+      | ，Pomodoro timer will start 
+      code 24：59
+      br
+      | When the Pomodoro complete, it will remind you to record just completed work, pinned todos will autocomplete
+      br
+      img(src='img/pomo.png', alt='')
+  a(name='rest')
+  .scrollblock.block-rest
+    h2 rest
+    p
+      | Regular breaks is an important part of pomodoro
+      br
+      | When the Pomodoro complete, Will begin a 
+      code 5：00
+      |  rest countdown.
+      br
+      | use this time, stand up and walk, get a cup of coffee, look out the window.
+  a(name='review')
+  .scrollblock.block-review
+    h2 review
+    p
+      | Occasionally review their work will help to further improve work efficiency.
+      br
+      | Click：
+      code Statistics
+      |  or 
+      code Pomo History
+      |  on the page 
+      br
+      | You can get your work overview of a period of time
+      br
+      img(src='img/statistics.png', alt='')
+  a(name='hints')
+  .scrollblock.block-hints
+    h2 useful hints
+    p
+      | add
+      code !
+      | at the end of todo make it infected with color.
+      br
+      code #Pomotodo I'm a very important potato !!
+      br
+      | click
+      code #TAG
+      | on todo list you can filter out the same tag marked todos
+      br
+      |  Keyboard type  
+      code ?
+      |  get the Keyboard shortcuts
+      br
+      img(src='img/shortcuts.png', alt='')
+  a(name='links')
+  .scrollblock.block-links
+    h2 links
+    p
+    ul
+      li
+        a(href='https://www.facebook.com/pomotodo ') Facebook Page
+      li
+        a(href='https://twitter.com/pomotodo') Twitter
+      li
+        a(href='http://translate.pomotodo.com') Translate Pomotodo
+      li
+        a(href='http://help.pomotodo.com/#!/') Pomotodo Help Center
+    p
+.footer
   p
-    span
-      a(href='https://pomotodo.com')  Web 版
-    span
-      a(href='http://mac-beta.pomotodo.com/')  Mac版
-    span
-      a(href='http://win-beta.pomotodo.com/')  Windows 版
-  p
-    span
-      a(href='http://www.wandoujia.com/apps/com.pomotodo')  Android 版
-    span
-      a(href='https://chrome.google.com/webstore/detail/pomotodo/algakdpepofkajponmledaldoloboinf')  iOS 版
-a(name='todo')
-.scrollblock.block-todo
-  h2 添加第一个土豆
-  p
-    | 打开番茄土豆，键入你正准备做的一项任务，例如：
-    br
-    code #Pomotodo 简明介绍页
-    br
-    | 回车，添加成功。
-    br
-    | 你可以继续添加，将未来一两天内的任务都添加到土豆列表中。
-a(name='pickup')
-.scrollblock.block-pickup
-  h2 挑选任务
-  p
-    | 上下拖拽土豆来改变土豆的顺序，将重要且紧急的任务放在最上面。
-    br
-    img(src='img/pickup.png', alt='')
-    br
-    | 挑选一两个你现在准备开始完成的土豆，使用 Pin 图标把它们“钉”起来。
-    br
-a(name='pomo')
-.scrollblock.block-pomo
-  h2 开始番茄
-  p
-    | 开始番茄意味着后面的25分钟里，你必须专注在这个番茄中。
-    br
-    | 深吸一口气，点击：
-    code 开始番茄
-    | ，番茄钟会开始计时 
-    code 24：59
-    br
-    | 当番茄结束时，它会提醒你记录下刚刚完成的工作，此前挑选的土豆会自动补全。
-    br
-    img(src='img/pomo.png', alt='')
-a(name='rest')
-.scrollblock.block-rest
-  h2 休息
-  p
-    | 定时休息是番茄工作法中重要的环节
-    br
-    | 番茄提交后，会开始一个  
-    code 5：00
-    |  的休息倒计时。
-    br
-    | 利用好这段时间，站起来走一走，倒杯咖啡，看看窗外。
-a(name='review')
-.scrollblock.block-review
-  h2 回顾
-  p
-    | 偶尔回顾自己的工作情况，有利于进一步提高工作效率。
-    br
-    | 点击页面中的：
-    code 统计
-    |  或 
-    code 番茄历史
-    br
-    | 可以获取到过去一段时间的的工作情况
-    br
-    img(src='img/statistics.png', alt='')
-a(name='hints')
-.scrollblock.block-hints
-  h2 实用小贴士
-  p
-    | 在土豆结尾增加
-    code !
-    | 可以给土豆染色，类似：
-    br
-    code #Pomotodo 我是一个很重要的土豆 !!
-    br
-    | 点击土豆中的 
-    code #TAG
-    |  可以筛选出同样标记了这个标签的土豆。
-    br
-    |  键盘输入  
-    code ?
-    |  会出现快捷键提示 
-    br
-    img(src='img/shortcuts.png', alt='')
-a(name='links')
-.scrollblock.block-links
-  h2 相关链接
-  p
-  ul
-    li
-      a(href='http://www.douban.com/group/pomotodo/') 豆瓣小组
-    li
-      a(href='https://www.facebook.com/pomotodo ') Facebook 专页
-    li
-      a(href='https://twitter.com/pomotodo') Twitter 账号
-    li
-      a(href='http://translate.pomotodo.com ') 翻译番茄土豆
-    li
-      a(href='http://help.pomotodo.com/#!/') 官方帮助中心
-  p
+    | Created by 
+    a(href='http://weibo.com/itsming') @sunoj. 
+    | Based on 
+    a(href='https://github.com/rogerdudler/git-guide') git-guide
+    |  by 
+    a(href='https://twitter.com/rogerdudler') @rogerdudler
